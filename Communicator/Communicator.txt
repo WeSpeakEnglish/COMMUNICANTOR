@@ -1,0 +1,83 @@
+Configuration	Communicator
+STM32CubeMX 	4.15.1
+Date	10/05/2016
+MCU	STM32L051C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN5	ADC_IN5	PA5
+ADC	IN6	ADC_IN6	PA6
+ADC	IN7	ADC_IN7	PA7
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	
+3	PC14-OSC32_IN	GPIO_Output	
+4	PC15-OSC32_OUT	GPIO_Output	
+5	PH0-OSC_IN	GPIO_Output	
+6	PH1-OSC_OUT	GPIO_Output	
+10	PA0	GPIO_Input	
+11	PA1	GPIO_Input	
+12	PA2	GPIO_Input	
+13	PA3	GPIO_Input	
+14	PA4	GPIO_Input	
+15	PA5	ADC_IN5	
+16	PA6	ADC_IN6	
+17	PA7	ADC_IN7	
+18	PB0	GPIO_Output	
+19	PB1	GPIO_Output	
+20	PB2	GPIO_Output	
+21	PB10	GPIO_Output	
+22	PB11	GPIO_Input	
+25	PB12	GPIO_Output	
+26	PB13	GPIO_Output	
+27	PB14	GPIO_Output	
+28	PB15	GPIO_Output	
+29	PA8	GPIO_Input	
+30	PA9	GPIO_Input	
+31	PA10	GPIO_Input	
+32	PA11	GPIO_Input	
+33	PA12	GPIO_Input	
+34	PA13	SYS_SWDIO	
+37	PA14	SYS_SWCLK	
+38	PA15	GPIO_Input	
+39	PB3	GPIO_Output	
+40	PB4	GPIO_Output	
+41	PB5	GPIO_Output	
+42	PB6	GPIO_Output	
+43	PB7	GPIO_Output	
+45	PB8	GPIO_Output	
+46	PB9	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Communicator
+Project Folder : F:\PROJECTS\Communicator\Communicator
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_L0 V1.7.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripherals : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

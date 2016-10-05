@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: u u, u, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.18
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+F:\PROJECTS\Communicator\Communicator\MDK-ARM\Communicator.uvprojx
+Project File Date:  10/05/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Communicator'
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_i2c_ex.c...
+compiling stm32l0xx_hal_dma.c...
+compiling stm32l0xx_hal_flash_ramfunc.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_adc_ex.c...
+compiling stm32l0xx_hal.c...
+compiling stm32l0xx_hal_i2c.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_adc.c...
+compiling stm32l0xx_hal_tim.c...
+compiling stm32l0xx_hal_flash.c...
+compiling stm32l0xx_hal_flash_ex.c...
+assembling startup_stm32l051xx.s...
+compiling stm32l0xx_hal_tim_ex.c...
+compiling system_stm32l0xx.c...
+compiling main.c...
+../Src/main.c(308): error:  #77-D: this declaration has no storage class or type specifier
+    * Brief   This function configures the Low power mode in order to 
+../Src/main.c(308): error:  #65: expected a ";"
+    * Brief   This function configures the Low power mode in order to 
+../Src/main.c(357): warning:  #12-D: parsing restarts here after previous syntax error
+    
+PTIM1->CR |= 
+PTIM_CR_CNTSTRT; /* start the counter in continuous */      
+../Src/main.c(363): error:  #18: expected a ")"
+    
+XTI->IMR |= EXTI_IMR_IM29; /* (1) */
+../Src/main.c(363): error:  #79: expected a type specifier
+    
+XTI->IMR |= EXTI_IMR_IM29; /* (1) */
+../Src/main.c(363): error:  #260-D: explicit type is missing ("int" assumed)
+    
+XTI->IMR |= EXTI_IMR_IM29; /* (1) */
+../Src/main.c(363): error:  #101: "EXTI_TypeDef" has already been declared in the current scope
+    
+XTI->IMR |= EXTI_IMR_IM29; /* (1) */
+../Src/main.c(363): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+    
+XTI->IMR |= EXTI_IMR_IM29; /* (1) */
+../Src/main.c(363): error:  #130: expected a "{"
+    
+XTI->IMR |= EXTI_IMR_IM29; /* (1) */
+../Src/main.c(366): warning:  #12-D: parsing restarts here after previous syntax error
+  }
+../Src/main.c: 2 warnings, 8 errors
+compiling stm32l0xx_it.c...
+compiling stm32l0xx_hal_msp.c...
+"Communicator\Communicator.axf" - 8 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\PROJECTS\Communicator\Communicator\MDK-ARM\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Target not created.
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
